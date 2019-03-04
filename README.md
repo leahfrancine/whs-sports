@@ -1,6 +1,6 @@
-# whs-sports
+# whs-sports </br>
 
-Goals:
--Complete Home Page
--Complete Directory
--Complete About
+Goals: </br>
+-Complete Home Page </br>
+-Complete Directory </br>
+-Complete About </br>
