@@ -1,0 +1,34 @@
+.page {
+	height: 640px;
+	width: 360px;
+}
+
+#title {
+	height: 50px;
+	width: 360px;
+}
+
+#requirements {
+	height: 250px;
+	width: 360px;
+	background-color: purple;
+}
+
+#information {
+	height: 250px;
+	width: 360px;
+	background-color: green;
+}
+
+#button {
+	height: 15px;
+	width: 30px;
+	background-color: red;
+}
+
+#headerfont {
+	font-family: Arial;
+	font-weight: bold;
+	text-align: center;
+	font-size: 17pt;
+}
