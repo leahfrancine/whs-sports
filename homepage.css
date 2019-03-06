@@ -1,0 +1,18 @@
+#main_container{
+ background-color: #FFD53F;
+ width: 360px;
+ height: 640px;
+}
+
+h1{
+ font-family: helvetica;
+ font-weight: bold;
+ font-size: 40px;
+ color: #429DFF;
+ text-align: center;
+}
+
+button{
+ font-family: helvetica;
+ background-color: #429DFF;
+}
