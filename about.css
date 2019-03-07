@@ -1,16 +1,18 @@
 .page {
 	height: 640px;
 	width: 360px;
+	background-color: cyan;
 }
 
-#title {
-	height: 50px;
+.title {
+	height: 20px;
 	width: 360px;
 }
 
-#requirements {
+.requirements {
 	height: 250px;
 	width: 360px;
+	align-content: center;
 }
 
 #information {
@@ -30,4 +32,18 @@
 	font-weight: bold;
 	text-align: center;
 	font-size: 17pt;
+}
+
+#header2font {
+	font-family: Arial;
+	text-align: left;
+	font-size: 15pt;
+}
+
+#box {
+	height: 200px;
+	width: 350px;
+	border-radius: 15px;
+	background-color: black;
+	margin: center;
 }
