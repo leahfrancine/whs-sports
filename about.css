@@ -1,7 +1,6 @@
 .page {
 	height: 640px;
 	width: 360px;
-	background-color: cyan;
 }
 
 .title {
@@ -10,15 +9,14 @@
 }
 
 .requirements {
-	height: 250px;
+	height: 125px;
 	width: 360px;
-	align-content: center;
+	align-items: center;
 }
 
-#information {
-	height: 250px;
+.information {
+	height: 460px;
 	width: 360px;
-	background-color: green;
 }
 
 #button {
@@ -37,13 +35,24 @@
 #header2font {
 	font-family: Arial;
 	text-align: left;
-	font-size: 15pt;
+	font-size: 16pt;
+	margin-left: 5px;
 }
 
 #box {
 	height: 200px;
 	width: 350px;
 	border-radius: 15px;
-	background-color: black;
-	margin: center;
+}
+
+#paragraphfont {
+	font-family: Arial;
+	text-align: left;
+	font-size: 15pt;
+}
+
+#schedule {
+	background-image: url("Images/sports.png");
+	height: 305px;
+	background-size: contain;
 }
