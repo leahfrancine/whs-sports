@@ -1,0 +1,121 @@
+.page {
+    height: 640px;
+    width: 360px;
+    background-size: contain;
+}
+
+.title {
+    height: 20px;
+    width: 360px;
+    margin-top: 40px;
+
+}
+
+p {
+    margin: auto;
+}
+
+.info {
+    height: 50px;
+    width: 360px;
+    margin-top: 40px;
+    border: 3px solid black;
+    border-radius: 3px;
+
+}
+
+.bocc {
+    height: 130px;
+    width: 360px;
+    overflow: visible;
+}
+
+.bocc-bottom {
+    margin-top: 120px;
+    height: 130px;
+    width: 360px;
+    overflow: visible;
+}
+
+.sport {
+    height: 120px;
+    width: 120px;
+    border-width: 3px;
+    border-radius: 12px;
+    border: 2px solid gray;
+}
+
+.sport2 {
+    height: 120px;
+    width: 120px;
+    border-width: 3px;
+    border-radius: 12px;
+    border: 2px solid gray;
+}
+
+.sport3 {
+    height: 120px;
+    width: 120px;
+    border-width: 3px;
+    border-radius: 12px;
+    border: 2px solid gray;
+}
+
+.boardedheading {
+    margin-top: 20px;
+    border: 3px solid black;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+    margin-left: 130px;
+}
+
+#sportfont1 {
+    font-family: Arial;
+    text-align: left;
+    font-size: 16pt;
+    margin: auto;
+}
+
+#sportfont2 {
+    font-family: Arial;
+    text-align: left;
+    font-size: 16pt;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+#sportfont3 {
+    font-family: Arial;
+    text-align: left;
+    font-size: 16pt;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+#headerfont {
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    font-size: 17pt;
+    margin-top: 13px;
+}
+
+#header2font {
+    font-family: Arial;
+    text-align: left;
+    font-size: 16pt;
+    margin-left: 5px;
+}
+
+#box {
+    height: 200px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+#paragraphfont {
+    font-family: Arial;
+    text-align: left;
+    font-size: 15pt;
+}

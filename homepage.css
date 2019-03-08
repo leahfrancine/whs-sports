@@ -1,18 +1,30 @@
 #main_container{
- background-color: #FFD53F;
- width: 360px;
- height: 640px;
+    background-color: #FFD53F;
+    width: 360px;
+    height: 640px;
 }
 
 h1{
- font-family: helvetica;
- font-weight: bold;
- font-size: 40px;
- color: #429DFF;
- text-align: center;
+    text-align: center;
+    font-size: 40px;
+    color: #429DFF;
+    font-family: 'Alfa Slab One';
+    padding-top: 200px;
 }
 
-button{
- font-family: helvetica;
- background-color: #429DFF;
+.button{
+    font-family: lora;
+    background-color: #429DFF;
+    text-align: center;
+    font-size: 25px;
+    width: 125px;
+    height: 75px;
+    border-radius: 15px;
+    color: white;
+}
+
+.pressy {
+    padding-left: 117.5px;
+    padding-right: 117.5px;
+    padding-top: 50px;
 }
