@@ -1,8 +1,8 @@
 .page {
 	height: 640px;
 	width: 360px;
-	background-image: url("Images/waipahu.jpg");
-	background-size: contain;
+/*	background-image: url("Images/waipahu.jpg");
+	background-size: contain;*/
 }
 
 .title {
