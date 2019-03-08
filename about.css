@@ -3,20 +3,20 @@
 	width: 360px;
 }
 
-#title {
-	height: 50px;
+.title {
+	height: 20px;
 	width: 360px;
 }
 
-#requirements {
-	height: 250px;
+.requirements {
+	height: 125px;
 	width: 360px;
+	align-items: center;
 }
 
-#information {
-	height: 250px;
+.information {
+	height: 460px;
 	width: 360px;
-	background-color: green;
 }
 
 #button {
@@ -30,4 +30,29 @@
 	font-weight: bold;
 	text-align: center;
 	font-size: 17pt;
+}
+
+#header2font {
+	font-family: Arial;
+	text-align: left;
+	font-size: 16pt;
+	margin-left: 5px;
+}
+
+#box {
+	height: 200px;
+	width: 350px;
+	border-radius: 15px;
+}
+
+#paragraphfont {
+	font-family: Arial;
+	text-align: left;
+	font-size: 15pt;
+}
+
+#schedule {
+	background-image: url("Images/sports.png");
+	height: 305px;
+	background-size: contain;
 }
