@@ -1,6 +1,6 @@
 .page {
-	height: 640px;
-	width: 360px;
+	min-width: 100%;
+	min-height: 100%;
 /*	background-image: url("Images/waipahu.jpg");
 	background-size: contain;*/
 }
