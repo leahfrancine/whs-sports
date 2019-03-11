@@ -11,13 +11,15 @@
 		</div>
 		<div class="requirements">
 			<p id="header2font">Requirements</p>
-				<div id="box">
-					<ul id="paragraphfont">
-						<li>Physical</li>
-						<li>Emergency Card</li>
-						<li>Risk Form</li>
-					</ul>
-				</div>
+			<form action="/action_page.php"
+			method="get">
+				<input type="checkbox"
+				name="requirements" value="physical"> Physical<br>
+				<input type="checkbox" 
+				name="requirements" value="card"> Athletic Card<br>
+				<input type="checkbox"
+				name="requirements" value="form"> Agreement Consent Form<br>
+			</form>	
 		</div>
 		<div class="information">
 			<p id="header2font">Schedule + Coach's Contact Information</p>
