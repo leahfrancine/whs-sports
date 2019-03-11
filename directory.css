@@ -1,18 +1,15 @@
 .page {
-    height: 640px;
-    width: 360px;
+    height: 100vh;
+    width: 100vw;
     background-size: contain;
 }
 
-.title {
-    height: 20px;
-    width: 360px;
-    margin-top: 40px;
-
-}
-
-p {
-    margin: auto;
+h1 {
+    font-size: 10vw;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
 }
 
 .info {
@@ -21,7 +18,6 @@ p {
     margin-top: 40px;
     border: 3px solid black;
     border-radius: 3px;
-
 }
 
 .bocc {
@@ -38,67 +34,18 @@ p {
 }
 
 .sport {
-    height: 120px;
+    height: 10vh;
     width: 120px;
     border-width: 3px;
     border-radius: 12px;
     border: 2px solid gray;
 }
 
-.sport2 {
-    height: 120px;
-    width: 120px;
-    border-width: 3px;
-    border-radius: 12px;
-    border: 2px solid gray;
-}
-
-.sport3 {
-    height: 120px;
-    width: 120px;
-    border-width: 3px;
-    border-radius: 12px;
-    border: 2px solid gray;
-}
-
-.boardedheading {
-    margin-top: 20px;
-    border: 3px solid black;
-    border-radius: 3px;
-    width: 100px;
-    height: 50px;
-    margin-left: 130px;
-}
-
-#sportfont1 {
+h3 {
     font-family: Arial;
     text-align: left;
     font-size: 16pt;
     margin: auto;
-}
-
-#sportfont2 {
-    font-family: Arial;
-    text-align: left;
-    font-size: 16pt;
-    margin-left: 50px;
-    margin-bottom: 30px;
-}
-
-#sportfont3 {
-    font-family: Arial;
-    text-align: left;
-    font-size: 16pt;
-    margin-left: 50px;
-    margin-bottom: 30px;
-}
-
-#headerfont {
-    font-family: Arial;
-    font-weight: bold;
-    text-align: center;
-    font-size: 17pt;
-    margin-top: 13px;
 }
 
 #header2font {
