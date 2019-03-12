@@ -1,7 +1,6 @@
 .page {
-    height: 100vh;
-    width: 100vw;
-    background-size: contain;
+    height: 100%;
+    width: 100%;
 }
 
 h1 {
@@ -26,14 +25,23 @@ h1 {
     overflow: visible;
 }
 
-.bocc-bottom {
-    margin-top: 120px;
-    height: 130px;
-    width: 360px;
-    overflow: visible;
+.vsport {
+    height: 30vh;
+    width: 40vw;
+    border-width: 2px;
+    border-style: outset;
+    border-color: gray;
+    margin-left: 5vw;
+}
+.tfsport {
+    height: 10vh;
+    width: 120px;
+    border-width: 3px;
+    border-radius: 12px;
+    border: 2px solid gray;
 }
 
-.sport {
+.jsport {
     height: 10vh;
     width: 120px;
     border-width: 3px;
@@ -43,26 +51,7 @@ h1 {
 
 h3 {
     font-family: Arial;
-    text-align: left;
-    font-size: 16pt;
-    margin: auto;
-}
-
-#header2font {
-    font-family: Arial;
-    text-align: left;
-    font-size: 16pt;
-    margin-left: 5px;
-}
-
-#box {
-    height: 200px;
-    width: 350px;
-    border-radius: 15px;
-}
-
-#paragraphfont {
-    font-family: Arial;
-    text-align: left;
-    font-size: 15pt;
+    text-align: center;
+    font-size: 5vw;
+    margin-top: center;
 }
