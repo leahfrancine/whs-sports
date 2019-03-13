@@ -1,7 +1,9 @@
 .page {
     height: 100%;
     width: 100%;
+    overflow: auto;
 }
+
 
 h1 {
     font-size: 10vw;
@@ -11,47 +13,65 @@ h1 {
     text-align: center;
 }
 
+
 .info {
-    height: 50px;
-    width: 360px;
-    margin-top: 40px;
+    height: 5vh;
+    width: 97vw;
+    margin-top: 10vh;
     border: 3px solid black;
     border-radius: 3px;
 }
 
+
 .bocc {
-    height: 130px;
-    width: 360px;
-    overflow: visible;
+    height: 30vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.not {
+	height: 30vh;
+	width: 90vw;
+	margin-top: 8vh;
+	margin-left: 20vw;
 }
 
 .vsport {
     height: 30vh;
     width: 40vw;
-    border-width: 2px;
-    border-style: outset;
-    border-color: gray;
-    margin-left: 5vw;
-}
-.tfsport {
-    height: 10vh;
-    width: 120px;
     border-width: 3px;
+    border-style: outset;
     border-radius: 12px;
-    border: 2px solid gray;
+    border-color: solid gray;
+    margin-left: 5vw;
+
+
+}
+
+.tfsport {
+    height: 30vh;
+    width: 40vw;
+    border-width: 3px;
+    border-style: outset;
+    border-radius: 12px;
+    border-color: solid gray;
+    margin-left: 5vw;
 }
 
 .jsport {
-    height: 10vh;
-    width: 120px;
+    height: 30vh;
+    width: 40vw;
     border-width: 3px;
+    border-style: outset;
     border-radius: 12px;
-    border: 2px solid gray;
+    border-color: solid gray;
+    margin-left: 5vw;
 }
 
 h3 {
     font-family: Arial;
     text-align: center;
     font-size: 5vw;
-    margin-top: center;
+    margin-top: 2%;
 }
