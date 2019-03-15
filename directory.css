@@ -21,8 +21,9 @@ h1{
 .bocc > div {
     height: 30vh;
     width: 44vw;
-    background-color: white;
+    background-color: #429DFF;
     margin-left: 4vw;
+    border-style: outset;
 }
 
 .not{
@@ -34,17 +35,21 @@ h1{
 .not > div{
     height: 30vh;
     width: 44vw;
-    background-color: white;
+    background-color: #429DFF;
     margin-left: 4vw;
+    border-style: outset;
 }
 
 .info{
     height: 5vh;
-    width: 100vw;
-    background-color: yellow;
+    width: 92vw;
+    background-color: #429DFF;
     margin-top: 5vh;
     display: inline-block;
     margin-bottom: 10vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    border-style: outset;
 }
 
 h3{
