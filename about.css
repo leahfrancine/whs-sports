@@ -8,7 +8,7 @@
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
-	font-size: 6vw;
+	font-size: 6.5vw;
 }
 
 .requirements {
@@ -17,11 +17,11 @@
 }
 
 #header {
-	font-size: 5vw;
+	font-size: 6vw;
 }
 
 #words {
-	font-size: 4vw;
+	font-size: 5vw;
 }
 
 .information {
@@ -40,7 +40,11 @@
 .pagechanger {
 	width: 5%;
 	height: 5%;
-	background-color: red;
 	margin: inherit;
 	margin-top: 5%;
 }
+
+.button {
+	font-size: 3.9vw;
+}
+
