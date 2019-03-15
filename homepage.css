@@ -12,6 +12,12 @@ h1{
   padding-top: 25vh;
 }
 
+.pressy {
+  padding-left: 35vw;
+  padding-right: 35vw;
+  padding-top: 8vh;
+}
+
 .button{
   font-family: lora;
   background-color: #429DFF;
@@ -23,8 +29,3 @@ h1{
   color: #FFD53F;
 }
 
-.pressy {
-  padding-left: 35vw;
-  padding-right: 35vw;
-  padding-top: 8vh;
-}
