@@ -5,7 +5,7 @@ html,body{
 }
 
 h1{
-    font-size: 10vw;
+    font-size: 5vh;
     font-family: Arial;
     font-weight: bold;
     text-align: center;
@@ -13,48 +13,38 @@ h1{
 
 .bocc{
     height: 30vh;
-    width: 90vw;
+    width: 100vw;
     display: flex;
     flex-direction: row;
 }
 
 .bocc > div {
     height: 30vh;
-    width: 40vw;
-    border-width: 3px;
-    border-style: outset;
-    border-radius: 12px;
-    border-color: solid gray;
-    margin-left: 5vw;
+    width: 44vw;
+    background-color: white;
+    margin-left: 4vw;
 }
 
 .not{
     height: 30vh;
-    width: 90vw;
-    margin-top: 8vh;
-    margin-left: 20vw;
+    width: 100vw;
+    margin-top: 5vh;
 }
 
-.jsport{
+.not > div{
     height: 30vh;
-    width: 40vw;
-    border-width: 3px;
-    border-style: outset;
-    border-radius: 12px;
-    border-color: solid gray;
-    margin-left: 5vw;
+    width: 44vw;
+    background-color: white;
+    margin-left: 4vw;
 }
-
 
 .info{
     height: 5vh;
     width: 100vw;
-    margin: center; 
-    border: 3px solid black;
-    border-radius: 3px;
     background-color: yellow;
     margin-top: 5vh;
     display: inline-block;
+    margin-bottom: 10vh;
 }
 
 h3{
@@ -67,6 +57,6 @@ h3{
 h2{
     font-family: Arial;
     text-align: center;
-    margin: center;
+    margin-top: center;
     font-size: 2vh 3vw;
 }
