@@ -16,7 +16,16 @@
 	height: 5%;
 	margin: auto;
 	border: 5px solid black;
+}
+
+#indoors {
+	height: 100%;
+	text-align: left;
+	font-size: 5vw;
+}
+
+#message {
 	text-align: center;
-	font-size: 4.5vw;
-	vertical-align: text-top;
+	font-size: 4vw;
+	font-weight: bold;
 }
