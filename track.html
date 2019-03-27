@@ -27,3 +27,22 @@
     </div>
 </body>
   
+<script>
+    <p id="demo">5</p>
+<button onclick="clock(); document.getElementById('demo').innerHTML='5';">Start counter</button>
+<button onclick="clearInterval(myTimer);">Stop counter</button>
+  <script type="text/javascript">
+       var myTimer;
+  function clock() {
+    myTimer = setInterval(myClock, 1000);
+    var c = 5;
+
+    function myClock() {
+      document.getElementById("demo").innerHTML = --c;
+      if (c == 0) {
+        clearInterval(myTimer);
+        document.getElementById("demo").innerHTML = "0"
+      }
+    }
+  }
+  </script>
