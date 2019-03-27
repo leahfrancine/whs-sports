@@ -1,0 +1,27 @@
+.page {
+    width: 100vw;
+    height: 100vh;
+}
+.title {
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 6.5vw;
+}
+.location1 > p {
+    font-size: 30px;
+   font-family: Arial;
+   font-weight: bold;
+   text-align: center;
+}
+#indoors {
+    height: 100%;
+    text-align: left;
+    font-size: 5vw;
+}
+#message {
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bold;
+}
