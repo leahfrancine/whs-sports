@@ -1,0 +1,108 @@
+html, body{
+   background-color: #FFD53F;
+   margin: 0;
+   height: 100%;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 7vw;
+}
+
+#location {
+	max-width: 100%;
+	max-height: 100%;
+	text-align: center;
+}
+
+.location0 {
+    width: 30%;
+    height: 5%;
+    border: 5px solid white;
+    display: inline-block;
+    border-style: outset;
+    background-color: #429DFF;
+}
+
+.location0 > p{
+	font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+.message {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+#beforetext {
+	text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+.name {
+	width: 30vw;
+	height: 8vh;
+	background-color: black;
+	margin: auto;
+	font-size: 3vh;
+	color: white;
+}
+
+.picture {
+	width: 40vw;
+	height: 20vh;
+	background-color: red;
+	margin: auto;
+	border-radius: 20px;
+	font-size: 3vh;
+	color: white;
+}
+
+.caption {
+	width: 60vw;
+	height: 8vh;
+	background-color: black;
+	font-size: 3vh;
+	color: white;
+	margin: auto;
+}
+
+#time{
+	max-width: 100%;
+	max-height: 100%;
+	text-align: center;
+	margin-top: 3%;
+}
+
+.time0{
+    width: 30%;
+    height: 5%;
+    display: inline-block;
+}
+
+.time0 > p{
+	font-size: 27px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+}
+
+#buttontimer{
+	font-size: 27px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
