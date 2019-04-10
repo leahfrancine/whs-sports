@@ -13,5 +13,9 @@ var myTimer;
         clearInterval(myTimer);
         document.getElementById("time0").innerHTML = "0"
     }
+      var min = c / 60;
+      var sec = c % 60;
+      return min + " : " + sec;
   }
 }
+
