@@ -13,28 +13,6 @@ html, body{
     font-size: 7vw;
 }
 
-#location {
-    max-width: 100%;
-    max-height: 100%;
-    text-align: center;
-}
-
-.location0 {
-    width: 30%;
-    height: 5%;
-    border: 5px solid white;
-    display: inline-block;
-    border-style: outset;
-    background-color: #429DFF;
-}
-
-.location0 > p{
-    font-size: 30px;
-    font-family: Arial;
-    font-weight: bold;
-    text-align: center;
-}
-
 p {
     text-align: center;
 }
@@ -55,16 +33,17 @@ p {
 .name {
     width: 30vw;
     height: 8vh;
-    background-color: black;
+    background-color: #101070;
     margin: auto;
     font-size: 3vh;
     color: white;
+    border-width: 6px;
 }
 
 .picture {
     width: 40vw;
     height: 20vh;
-    background-color: red;
+    background-color: #FFAD02;
     margin: auto;
     border-radius: 20px;
     font-size: 3vh;
@@ -74,7 +53,7 @@ p {
 .caption {
     width: 60vw;
     height: 8vh;
-    background-color: black;
+    background-color: #101070;
     font-size: 3vh;
     color: white;
     margin: auto;
@@ -151,4 +130,8 @@ p {
 
 .button {
     font-size: 3.9vw;
+}
+
+.block {
+    border-
 }
