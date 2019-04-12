@@ -8,10 +8,10 @@ var myTimer;
     var c = 300;
 
     function myClock() {
-      document.getElementById("time0").innerHTML = --c;
+      document.getElementById("time").innerHTML = --c;
       if (c == 0) {
         clearInterval(myTimer);
-        document.getElementById("time0").innerHTML = "0"
+        document.getElementById("time").innerHTML = "0"
     }
       var min = c / 60;
       var sec = c % 60;
