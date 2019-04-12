@@ -32,7 +32,7 @@ h1{
 .not{
    height: 30vh;
    width: 100vw;
-   margin-top: 5vh;
+   margin-top: 3vh;
 }
 
 .not > div{
@@ -47,17 +47,17 @@ h1{
 
 .info{
    height: 5vh;
-   width: 92vw;
+   width: 60vw;
    background-color: #071AAF;
-   margin-top: 5vh;
+   margin-top: 10vh;
    display: inline-block;
    margin-bottom: 10vh;
-   margin-left: 4vw;
+   margin-left: 16vw;
    margin-right: 4vw;
    border-style: outset;
    border-color: #071AAF;
    border-width: 2vw;
-   font-color: #FFFFFF;
+   color: #FFFFFF;
 
 }
 

@@ -18,9 +18,13 @@ p {
 }
 
 .message {
-    text-align: center;
     font-size: 3vw;
     font-weight: bold;
+    border-color: #808080;
+    border-width: 5px;
+    border-radius: 4px; 
+    background-color: #DCDCDC;
+
 }
 
 #beforetext {
@@ -67,24 +71,25 @@ p {
 }
 
 .time0{
-    width: 30%;
-    height: 5%;
+    width: 50%;
+    height: 50%;
     display: inline-block;
 }
 
 .time0 > p{
-    font-size: 27px;
+    font-size: px;
     font-family: Arial;
     font-weight: bold;
     text-align: center;
 }
 
 #buttontimer{
-    font-size: 27px;
+    font-size: 50px;
     font-family: Arial;
     font-weight: bold;
     text-align: center;
     border-radius: 5px;
+    color: #101070;
 }
 
 #sidebar {
@@ -134,4 +139,8 @@ p {
 
 .block {
     border-
+}
+
+.blue {
+    color: #101070;
 }
