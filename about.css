@@ -1,60 +1,49 @@
 .page {
-	height: 640px;
-	width: 360px;
-	background-image: url("Images/waipahu.jpg");
-	background-size: contain;
+	width: 100vw;
+	height: 100vh;
 }
 
 .title {
-	height: 20px;
-	width: 360px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 6.5vw;
 }
 
 .requirements {
-	height: 125px;
-	width: 360px;
-	align-items: center;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#header {
+	font-size: 6vw;
+}
+
+#words {
+	font-size: 5vw;
 }
 
 .information {
-	height: 460px;
-	width: 360px;
-}
-
-#button {
-	height: 15px;
-	width: 30px;
-	background-color: red;
-}
-
-#headerfont {
-	font-family: Arial;
-	font-weight: bold;
-	text-align: center;
-	font-size: 17pt;
-}
-
-#header2font {
-	font-family: Arial;
 	text-align: left;
-	font-size: 16pt;
-	margin-left: 5px;
-}
-
-#box {
-	height: 200px;
-	width: 350px;
-	border-radius: 15px;
-}
-
-#paragraphfont {
-	font-family: Arial;
-	text-align: left;
-	font-size: 15pt;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #schedule {
-	background-image: url("Images/sports.png");
-	height: 305px;
-	background-size: contain;
+	width: 90vw;
+	min-height: 60vh;
+	background-color: black;
+	margin: auto;
+	border-radius: 15px;
+}
+
+.pagechanger {
+	width: 5%;
+	height: 5%;
+	margin: inherit;
+	margin-top: 5%;
+}
+
+.button {
+	font-size: 3.9vw;
 }
