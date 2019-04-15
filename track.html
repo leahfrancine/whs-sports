@@ -1,50 +1,9 @@
 <!DOCTYPE html>
+<meta charset="UTF-8">
+
 <head>
     <title>Track and Field</title>
-    <link rel="stylesheet" type="text/css" href="track.css">
-</head>
-<body>
-    <div id="page">
-        <div class="title">
-            <p>Track and Field Workouts</p>
-        </div>
-        <div class="location1">
-            <p>Indoors</p>
-        </div>
-        <div class="location1">
-            <p>Outdoors</p>
-        </div>
-    <div id="message">
-        <p> BEFORE you start, we recommend you to Stretch or Warm up first!</p>
-    </div>    
-    <div>
-        <p>TODAY'S WARM-UP/STRETCH</p>
-    </div>                
-    </div>
-</body>
-  
-<script>
-    <p id="demo">5</p>
-<button onclick="clock(); document.getElementById('demo').innerHTML='5';">Start counter</button>
-<button onclick="clearInterval(myTimer);">Stop counter</button>
-  <script type="text/javascript">
-       var myTimer;
-  function clock() {
-    myTimer = setInterval(myClock, 1000);
-    var c = 5;
-
-    function myClock() {
-      document.getElementById("demo").innerHTML = --c;
-      if (c == 0) {
-        clearInterval(myTimer);
-        document.getElementById("demo").innerHTML = "0"
-      }
-    }
-  }
-  </script>
-=======
     <link rel="stylesheet" type="text/css" href="volleyball.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
@@ -96,11 +55,6 @@
       <button id="buttontimer">Start</button>
     </div>
   </div>
-  <div class="pagechanger">
-      <button class="button"> <a href="directory.html" class="button">
-        <i class="fas fa-arrow-circle-left"></i>
-      </button>
-    </div>
 </body>
 
 </html>
