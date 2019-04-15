@@ -27,12 +27,13 @@ h1{
    border-style: outset;
    border-color: #FFBD35;
    border-width: 2vw;
+   margin-top: 1.5vh;
 }
 
 .not{
    height: 30vh;
    width: 100vw;
-   margin-top: 3vh;
+   margin-top: 4.5vh;
 }
 
 .not > div{
@@ -74,4 +75,20 @@ h2{
    margin-top: center;
    font-size: 2vh 3vw;
    font-color: #FFFFFF;
+}
+
+.choose {
+   border-color: #101070;
+   border-width: 7px;
+   border-style: solid;
+   border-radius: 15px;
+   height: 10%;
+   width: 75%;
+   text-align: center;
+   margin-left: 12%;
+   margin-top: 5%;
+}
+
+.choosing {
+    margin: 4.5% 1.5%;
 }
