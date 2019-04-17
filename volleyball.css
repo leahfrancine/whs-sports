@@ -78,8 +78,6 @@ p {
     width: 50%;
     height: 50%;
     display: inline-block;
-    margin-left: 1vw;
-
 }
 
 .time0 > p{
@@ -99,17 +97,16 @@ p {
 }
 
 #sidebar {
-    position: absolute;
-    width: 30%;
+    position: fixed;
+    width: 10vh;
     height: 100%;
-    background: #FFBD33;
-    left: -30%;
+    background: #429DFF;
+    left: -10vh;
     transition: all 500ms linear;
 }
 
 #sidebar.active {
-    left: 0%;
-    overflow: scroll;
+    left: 0vh;
 }
 
 #sidebar > ul > li {
@@ -121,16 +118,31 @@ p {
 
 #sidebar > .toggle-btn {
     position: absolute;
-    left: 105%;
-    top: 2vh;
+    left: 215px;
+    top: 20px;
 }
 
 #sidebar > .toggle-btn > span {
     display: block;
-    width: 7vw;
-    height: 0.5vh;
+    width: 30px;
+    height: 5px;
     background: #151719;
-    margin: 1vw 1vh;
+    margin: 3px 0px;
+}
+
+.pagechanger {
+    width: 5%;
+    height: 5%;
+    margin: inherit;
+    margin-bottom: 5%;
+}
+
+.button {
+    font-size: 3.9vw;
+}
+
+.block {
+    border-
 }
 
 .blue {
@@ -145,65 +157,19 @@ p {
     border-bottom: #101070;
 }
 
-.bottom-bar {
-    bottom: 0%;
-    position: fixed;
-    width: 98%;
-    height: 8vh;
+#dayone.active {
+    left: 0%;
+    top: 0%;
     background-color: white;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #101070;
-    margin-left: 0%;
+    margin: 0;
+    padding: 0;
 }
 
-.home-bar {
-    float: left;
-    width: 30%;
-    height: 8vh;
-    margin-top: 0px;
-    border-color: #101070;
-    border-style: solid;
-    border-width: 4px;
-}
-
-.back-bar {
-    float: left;
-    width: 30%;
-    height: 8vh;
-    margin-top: 0px;
-    border-color: #101070;
-    border-style: solid;
-    border-width: 4px;
-    margin-left: 3.5vw;
-}
-
-.info-bar {
-    float: left;
-    width: 30%;
-    height: 8vh;
-    margin-top: 0px;
-    border-color: #101070;
-    border-style: solid;
-    border-width: 4px;
-    margin-left: 3.5vw;
-}
-
-.pagechanger {
-    width: 5%;
-    height: 5%;
-    margin: inherit;
-    margin-bottom: 0.5vh;
-    margin-left: 2vw;
+#dayone {
     position: fixed;
-    bottom: 0px;
-    color: #101070;
-}
-
-.button {
-    font-size: 10vw;
-    margin-left: 3.5vw;
-    text-align: center;
-    color: #101070;
-    margin-top: -30px;
+    width: 100%;
+    height: 100%;
+    background: #429DFF;
+    left: -100%;
+    top: -100%;
 }
