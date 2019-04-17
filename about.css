@@ -17,7 +17,7 @@
 .requirements {
  text-align: left;
  font-family: 'Open Sans', sans-serif;
- width: 30vw;
+ width: 70vw;
  border: 15px #071AAF;
  padding: 50px;
  margin: 20px;
@@ -55,7 +55,7 @@ height: 5vh;
 }
 
 #schedule {
-  width: 90vw;
+  width: 100%;
   min-height: 60vh;
   border-radius: 15px;
 }

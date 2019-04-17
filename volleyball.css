@@ -78,6 +78,7 @@ p {
     width: 50%;
     height: 50%;
     display: inline-block;
+    margin-left: 1vw;
 
 }
 
@@ -132,20 +133,6 @@ p {
     margin: 1vw 1vh;
 }
 
-.pagechanger {
-    width: 5%;
-    height: 5%;
-    margin: inherit;
-    margin-bottom: 0.5vh;
-    margin-left: 2vw;
-    position: fixed;
-    bottom: 0px;
-}
-
-.button {
-    font-size: 4vw;
-}
-
 .blue {
     color: #101070;
 }
@@ -156,4 +143,67 @@ p {
 
 .daily {
     border-bottom: #101070;
+}
+
+.bottom-bar {
+    bottom: 0%;
+    position: fixed;
+    width: 98%;
+    height: 8vh;
+    background-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #101070;
+    margin-left: 0%;
+}
+
+.home-bar {
+    float: left;
+    width: 30%;
+    height: 8vh;
+    margin-top: 0px;
+    border-color: #101070;
+    border-style: solid;
+    border-width: 4px;
+}
+
+.back-bar {
+    float: left;
+    width: 30%;
+    height: 8vh;
+    margin-top: 0px;
+    border-color: #101070;
+    border-style: solid;
+    border-width: 4px;
+    margin-left: 3.5vw;
+}
+
+.info-bar {
+    float: left;
+    width: 30%;
+    height: 8vh;
+    margin-top: 0px;
+    border-color: #101070;
+    border-style: solid;
+    border-width: 4px;
+    margin-left: 3.5vw;
+}
+
+.pagechanger {
+    width: 5%;
+    height: 5%;
+    margin: inherit;
+    margin-bottom: 0.5vh;
+    margin-left: 2vw;
+    position: fixed;
+    bottom: 0px;
+    color: #101070;
+}
+
+.button {
+    font-size: 10vw;
+    margin-left: 3.5vw;
+    text-align: center;
+    color: #101070;
+    margin-top: -30px;
 }
