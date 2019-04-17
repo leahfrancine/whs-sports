@@ -2,6 +2,10 @@ function toggleSidebar(){
   document.getElementById("sidebar").classList.toggle('active')
 }
 
+function toggleDayone(){
+ document.getElementById("dayone").classList.toggle('active')
+}
+
 var myTimer;
   function clock() {
     myTimer = setInterval(myClock, 1000);
