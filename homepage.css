@@ -1,5 +1,5 @@
 html{
-  background-color: #FFD53F;
+  background-color: #162B40;
   width: 100vw;
   height: 100vh;
 }
@@ -7,9 +7,10 @@ html{
 h1{
   text-align: center;
   font-size: 11vw;
-  color: #429DFF;
+  color: #FFAD00;
   font-family: 'Alfa Slab One';
-  padding-top: 25vh;
+  padding-top: 2vh;
+  margin-top: 0vh;
 }
 
 .pressy {
@@ -20,11 +21,16 @@ h1{
 
 .button{
   font-family: lora;
-  background-color: #429DFF;
+  background-color: #FFAD00;
   text-align: center;
   font-size: 8vw;
   width: 30vw;
   height: 10vh;
   border-radius: 15px;
-  color: #FFD53F;
+  border-color: #101070;
+  color: white;
+}
+.logo {
+  margin-left: 20vw;
+  margin-top: 10vh;
 }
