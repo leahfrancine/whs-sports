@@ -8,15 +8,13 @@ var myTimer;
     var c = 300;
 
     function myClock() {
-      document.getElementById("time").innerHTML = --c;
+      var min = Math.floor(c / 60);
+      var sec = c % 60;
+      document.getElementById("5").innerHTML = min + " : " + sec;
+      --c;
       if (c == 0) {
         clearInterval(myTimer);
-        document.getElementById("time").innerHTML = "0"
+        document.getElementById("5").innerHTML = "0"
     }
-      var min = c / 60;
-      var sec = c % 60;
-      return min + " : " + sec;
   }
 }
-
-
