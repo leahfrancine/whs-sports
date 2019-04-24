@@ -12,45 +12,41 @@ h1{
    font-color: white;
 }
 
-.bocc{
-   height: 30vh;
-   width: 100vw;
-   display: flex;
-   flex-direction: row;
-}
-
-.bocc > div {
-   height: 30vh;
-   width: 44vw;
+.volleyball > div{
+   width: 72%;
+   height: 40vh;
    background-color: #FFAD00;
-   margin-left: 1.5vw;
    border-style: outset;
    border-color: #FFBD35;
    border-width: 2vw;
-   margin-top: 1.5vh;
+   margin: 1.5vh 12vw;
 }
 
-.not{
-   height: 30vh;
-   width: 100vw;
-   margin-top: 4.5vh;
-}
-
-.not > div{
-   height: 30vh;
-   width: 44vw;
+.track > div{
+   width: 90%;
+   height: 20vh;
    background-color: #FFAD00;
-   margin-left: 1.5vw;
    border-style: outset;
    border-color: #FFBD35;
    border-width: 2vw;
+   margin: 1.5vh 3vw;
+}
+
+.judo > div{
+   width: 90%;
+   height: 20vh;
+   background-color: #FFAD00;
+   border-style: outset;
+   border-color: #FFBD35;
+   border-width: 2vw;
+   margin: 1.5vh 3vw;
 }
 
 .info{
    height: 5vh;
    width: 60vw;
    background-color: #071AAF;
-   margin-top: 10vh;
+   margin-top: 3vh;
    display: inline-block;
    margin-bottom: 10vh;
    margin-left: 16vw;
@@ -91,4 +87,12 @@ h2{
 
 .choosing {
     margin: 4.5% 1.5%;
+}
+
+.v-logo {
+   margin: 0px 23%;
+   border-style: solid;
+   border-width: 5px;
+   padding: 15px;
+   border-color: black;
 }

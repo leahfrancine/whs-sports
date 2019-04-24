@@ -1,0 +1,36 @@
+html{
+  background-color: #102C44;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1{
+  text-align: center;
+  font-size: 11vw;
+  color: #FFAD00;
+  font-family: 'Alfa Slab One';
+  padding-top: 2vh;
+  margin-top: 0vh;
+}
+
+.pressy {
+  padding-left: 35vw;
+  padding-right: 35vw;
+  padding-top: 8vh;
+}
+
+.button{
+  font-family: lora;
+  background-color: #FFAD00;
+  text-align: center;
+  font-size: 8vw;
+  width: 30vw;
+  height: 10vh;
+  border-radius: 15px;
+  border-color: #101070;
+  color: white;
+}
+.logo {
+  margin-left: 20vw;
+  margin-top: 10vh;
+}
