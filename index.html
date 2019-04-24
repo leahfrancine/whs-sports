@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" type="text/css" href="index.css">
-<link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
-<script type="text/javascript" href="index.js"></script>
-<head>
+<link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'><head>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <meta charset="UTF-8">
 <title>Document</title>
 </head>
 <body>
+<script>
+  function popMessage() {
+  if (confirm("Welcome to WHSports! The main purpose of this app is to help pre-condition students who are interested in joining a sport at Waipahu High School. It consists of basic skills and exercises that are typically done during conditioning and practices in a span of 30 days."))
+  {
+    location.href = "directory.html"
+  } else {
+    location.href = "directory.html"
+  }
+  document.getElementById("demo").innerHTML = location.href;
+}
+</script>
 <img class="logo" src="https://static.wixstatic.com/media/433951_24ee18cdac124dc5babb7cff4837f208~mv2.jpg" alt="WHSMarauder" height="500" width="500">
         <h1>Welcome to<br> WHSports!</h1>
             <div class="pressy">
-                <button class="button"> <a href="directory.html" class="button"> Start! </button>
+                <button id="button" onclick="popMessage()"> Start! </button>
             </div>
 </body>
 </html>
-
-
-<!--Welcome to WHSports! The main purpose of this app is to help pre-condition students who are interested in joining a sport at Waipahu High School. It consists of basic skills and exercises that are typically done during conditioning and practices in a span of 30 days.
-
-Have fun and enjoy!-->
-<!-- onClick="return popup(this, 'poppy')" -->
-
