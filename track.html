@@ -2,65 +2,195 @@
 <meta charset="UTF-8">
 
 <head>
-    <title>Track and Field</title>
-    <link rel="stylesheet" type="text/css" href="volleyball.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <title>Track</title>
+  <link rel="stylesheet" type="text/css" href="track.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <script src="track.js"></script>
 </head>
-
 <body>
+  <div class="top-bar">
+  <div id="sidebar">
+      <div class="toggle-btn" onclick="toggleSidebar()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul>
+      <li><a href="#dayone">Day 1</a></li>
+      <li><a href="#daytwo">Day 2</a></li>
+      <li><a href="#daythree">Day 3</a></li>
+      <li><a href="#dayfour">Day 4</a></li>
+      <li><a href="#dayfive">Day 5</a></li>
+      <li><a href="#daysix">Day 6</a></li>      
+      <li>Day 7</li>
+      <li>Day 8</li>
+      <li>Day 9</li>
+      <li>Day 10</li>
+      <li>Day 11</li>
+      <li>Day 12</li>
+      <li>Day 13</li>
+      <li>Day 14</li>
+      <li>Day 15</li>
+      <li>Day 16</li>
+      <li>Day 17</li>
+      <li>Day 18</li>
+      <li>Day 19</li>
+      <li>Day 20</li>
+      <li>Day 21</li>
+      <li>Day 22</li>
+      <li>Day 23</li>
+      <li>Day 24</li>
+      <li>Day 25</li>
+      <li>Day 26</li>
+      <li>Day 27</li>
+      <li>Day 28</li>
+      <li>Day 29</li>
+      <li>Day 30</li>
+    </ul>
+  </div>
+  <div class="head-title">
+      <p class="head-title-text">Track and Field Workouts <i class="fas fa-running"></i></p>
+  </div> 
+</div>
+<div id="dayone">
   <div class="title">
-    <p>Track and Field Workouts</p>
+    <a name="dayone"></a>
+    <p class="dayone">Day One</p>
   </div>
-  <div id="location">
-    <div class="location0">
-      <p>Indoors</p>
-    </div>
-    <div class="location0">
-      <p>Outdoors</p>
-    </div>
+  <div class="block">
+      <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-        <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
-      <p id="beforetext">TODAY’S WARM-UP/STRETCH</p>
-   <div class="name">
-        <p>Name</p>
-   </div>
-   <div class="picture">
+      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
+      <div class="name">
+        <p>Jog</p>
+      </div>
+      <div class="picture">
         <p>Picture</p>
-   </div>
-   <div class="caption">
-        <p>Caption</p>
-   </div>
-  <div id="time">
-    <div class="time0">
-      <p>05:00<br>---------</p>
-    </div>
-    <div class="time0">
-      <button id="buttontimer">Start</button>
-    </div>
-  </div>
-      <p id="beforetext">TODAY’S WORKOUT</p>
-   <div class="name">
-      <p>Name</p>
-   </div>
-   <div class="picture">
-      <p>Picture</p>
-   </div>
-   <div class="caption">
-      <p>Caption</p>
-   </div>
-  <div id="time">
-    <div class="time0">
-      <p>05:00<br>---------</p>
-    </div>
-    <div class="time0">
-      <button id="buttontimer">Start</button>
-    </div>
-  </div>
-  <div class="pagechanger">
-      <button class="button"> <a href="directory.html" class="button">
-        <i class="fas fa-arrow-circle-left"></i>
-      </button>
-    </div>
+      </div>
+      <div class="caption">
+        <p>Tip: <br>Jog at your own pace</p>
+      </div>
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue" id="5">05:00</h1>
+        </div>
+        <br></br>
+        <div class="time0">
+          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button onclick="clearInterval(myTimer);">Stop</button>
+        </div>
+      </div>
+      <div class="name">
+        <p>High Knees</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">20 reps</h1>
+        </div>
+      </div>
+      <div class="name">
+        <p>Butt Kicks</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">20 reps</h1>
+        </div>
+      </div>
+      <div class="name">
+        <p></p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      </div>
+      <div class="name">
+        <p>Frankensteins</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      </div>
+      <div class="name">
+        <p>Toe Walk Ins</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      </div>
+      <div class="name">
+        <p>Heel Walk Ins</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      </div>
+      <div class="name">
+        <p>Walk Ins Using Side of Feet</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      </div>
+        <br></br>
+      <p id="beforetext">-TODAY’S WORKOUT: BLOCKING DRILLS-</p>
+      <div class="name">
+        <p>One-Step Blocking</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      </div>
+      <div class="name">
+        <p>Two-Step Blocking</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">8 reps</h1>
+        </div>
+      </div>
+      <div class="name">
+        <p>Three-Step Blocking</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">6 reps</h1>
+        </div>
+      </div>
 </body>
-
 </html>
