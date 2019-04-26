@@ -1,5 +1,5 @@
 html, body{
-   background-color: white;
+   background-color: #F8F8FF;
    margin: 0;
    padding: 0;
    height: 100%;
@@ -39,7 +39,7 @@ p {
 .name {
     width: 30vw;
     height: 8vh;
-    background-color: #101070;
+    background-color: #102C44;
     margin: auto;
     font-size: 3vh;
     color: white;
@@ -59,7 +59,7 @@ p {
 .caption {
     width: 60vw;
     height: 8vh;
-    background-color: #101070;
+    background-color: #102C44;
     font-size: 3vh;
     color: white;
     margin: auto;
@@ -91,16 +91,20 @@ p {
     font-weight: bold;
     text-align: center;
     border-radius: 5px;
-    color: #101070;
+    color: #102C44;
 }
 
 #sidebar {
     position: fixed;
     width: 10vh;
-    height: 100%;
-    background: #429DFF;
+    height: 99%;
+    background: #FFFFF0;
     left: -10vh;
     transition: all 500ms linear;
+    color: black;
+    border-right: groove 5px #C0C0C0;
+    border-bottom: groove 5px #C0C0C0;
+    font-size: 23px;
 }
 
 #sidebar.active {
@@ -108,7 +112,7 @@ p {
 }
 
 #sidebar > ul > li {
-    color: rgba(230,230,230,0.9);
+    color: black;
     list-style: none;
     padding: 15px 10px;
     border-bottom: 1px solid rgba(100,100,100,0.3);
@@ -124,7 +128,7 @@ p {
     display: block;
     width: 30px;
     height: 5px;
-    background: #151719;
+    background: #102C44;
     margin: 3px 0px;
 }
 
@@ -153,4 +157,44 @@ p {
 
 .daily {
     border-bottom: #101070;
+}
+
+.dayone {
+    margin-top: 10vh;
+}
+
+.top-bar {
+    top: 0px;
+    position: fixed;
+    background-color: white;
+    height: 6vh;
+    width: 100%;
+    box-shadow: bottom;
+    border-bottom: groove 5px;
+    margin-top: 0px;
+}
+
+.head-title {
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+.head-title-text {
+    padding: 0px;
+    margin-top: 30px;
+}
+
+.dayone .daytwo .daythree .dayfour .dayfive .daysix {
+    border: groove 30px #C0C0C0 ;
+} 
+
+.bottom-bar {
+    bottom: 0px;
+    position: fixed;
+    background-color: white;
+    height: 6vh;
+    width: 100%;
+    box-shadow: bottom;
+    border-top: groove 5px;
+    margin-top: 0px;
 }
