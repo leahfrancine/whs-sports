@@ -27,8 +27,6 @@ p {
     background-color: #DCDCDC;
     width: 90%;
     margin-left: 4vw;
-
-
 }
 
 #beforetext {
@@ -155,21 +153,4 @@ p {
 
 .daily {
     border-bottom: #101070;
-}
-
-#dayone.active {
-    left: 0%;
-    top: 0%;
-    background-color: white;
-    margin: 0;
-    padding: 0;
-}
-
-#dayone {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: #429DFF;
-    left: -100%;
-    top: -100%;
 }
