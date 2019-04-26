@@ -37,32 +37,37 @@ p {
 }
 
 .name {
-    width: 30vw;
-    height: 8vh;
+    width: 80vw;
+    height: 6.5vh;
     background-color: #102C44;
-    margin: auto;
-    font-size: 3vh;
+    margin: 2vh 9%;
+    font-size: 2.5vh;
     color: white;
     border-width: 6px;
+    border-color: #375873;
+    border-style: solid;
 }
 
 .picture {
-    width: 40vw;
+    width: 80vw;
     height: 20vh;
     background-color: #FFAD02;
-    margin: auto;
+    margin: 1vh 9.5%;
     border-radius: 20px;
     font-size: 3vh;
     color: white;
 }
 
 .caption {
-    width: 60vw;
+    width: 80vw;
     height: 8vh;
     background-color: #102C44;
-    font-size: 3vh;
+    font-size: 2.5vh;
     color: white;
-    margin: auto;
+    margin: 2vh 9% ;
+    border-color: #375873;
+    border-style: solid;
+    border-width: 6px;
 }
 
 #time{
@@ -104,7 +109,7 @@ p {
     color: black;
     border-right: groove 5px #C0C0C0;
     border-bottom: groove 5px #C0C0C0;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 #sidebar.active {
@@ -138,25 +143,8 @@ p {
     margin: inherit;
     margin-bottom: 5%;
 }
-
-.button {
-    font-size: 3.9vw;
-}
-
-.block {
-    border-
-}
-
-.blue {
-    color: #101070;
-}
-
-.back-button {
-    color: #FFAD02;
-}
-
 .daily {
-    border-bottom: #101070;
+    border-bottom: #102C44;
 }
 
 .dayone {
@@ -184,17 +172,40 @@ p {
     margin-top: 30px;
 }
 
-.dayone .daytwo .daythree .dayfour .dayfive .daysix {
-    border: groove 30px #C0C0C0 ;
-} 
-
 .bottom-bar {
     bottom: 0px;
     position: fixed;
     background-color: white;
     height: 6vh;
     width: 100%;
-    box-shadow: bottom;
+    box-shadow: top;
     border-top: groove 5px;
     margin-top: 0px;
+}
+
+.home {
+    height: 100%;
+    width: vw;
+    float: left;
+}
+
+
+.info {
+    height: 100%;
+    width: 30vw;
+    float: right;
+}
+
+
+.button {
+    font-size: 10vw;
+    background-color: white;
+    border: none;
+    color: #102C44;
+    margin: 0px 30%;\
+    float: left;
+}
+
+span {
+    color: #102C44;
 }
