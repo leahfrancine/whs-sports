@@ -9,18 +9,15 @@
 </head>
 <body>
   <div id="sidebar">
-    <div class="toggle-btn" onclick="toggleSidebar()">
+      <div class="toggle-btn" onclick="toggleSidebar()">
       <span></span>
       <span></span>
       <span></span>
     </div>
     <ul>
-      <li  class="toggleDayone-btn" onclick="toggleDayone()">Day 1</li>
-        <div id="dayone">
-          <button onclick="toggleDayone()">Back</button>
-        </div>
-      <li>Day 2</li>
-      <li>Day 3</li>
+      <li><a href="#dayone">Day 1</a></li>
+      <li><a href="#daytwo">Day 2</a></li>
+      <li><a href="#daythree">Day 3</a></li>
       <li>Day 4</li>
       <li>Day 5</li>
       <li>Day 6</li>
@@ -50,94 +47,569 @@
       <li>Day 30</li>
     </ul>
   </div>
-    <div class="title">
-    <p>Volleyball Workouts <i class="fas fa-volleyball-ball"></i></p>
+<div id="dayone">
+  <div class="title">
+    <a name="dayone"></a>
+    <p>Day One <i class="fas fa-volleyball-ball"></i></p>
   </div>
-<div class="block">
+  <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
-<div class="daily">
-       <p id="beforetext">-TODAY’S WARM-UP/STRETCH-</p>
-   <div class="name">
-      <p>Name</p>
-   </div>
-   <div class="picture">
-      <p>Picture</p>
-   </div>
-   <div class="caption">
-      <p>Caption</p>
-   </div>
-  <div id="time">
-    <div class="time0">
-      <h1 class="blue">05:00<br>---------</h1>
-    </div>
-    <div class="time0">
-      <button id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-    </div>
   </div>
+      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
+      <div class="name">
+        <p>Jog</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+      <div class="caption">
+        <p>Tip: <br>Jog at your own pace</p>
+      </div>
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue" id="5">05:00</h1>
+        </div>
+        <br></br>
+        <div class="time0">
+          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button onclick="clearInterval(myTimer);">Stop</button>
+        </div>
+      <div class="name">
+        <p>Lounges</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <div class="name">
+        <p>Side Lounges</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <div class="name">
+        <p>Cherry Pickers</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <div class="name">
+        <p>Frankensteins</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <div class="name">
+        <p>Toe Walk Ins</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <div class="name">
+        <p>Heel Walk Ins</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <div class="name">
+        <p>Walk Ins Using Side of Feet</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+        <br></br>
+      <p id="beforetext">-TODAY’S WORKOUT: BLOCKING DRILLS-</p>
+      <div class="name">
+        <p>One-Step Blocking</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <div class="name">
+        <p>Two-Step Blocking</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">8 reps</h1>
+        </div>
+      <div class="name">
+        <p>Three-Step Blocking</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">6 reps</h1>
+        </div>
+      <div class="name">
+        <p>One-Step Blocking</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <div class="name">
+        <p>Two-Step Blocking</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">8 reps</h1>
+        </div>
+      <div class="name">
+        <p>Three-Step Blocking</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">6 reps</h1>
+        </div>
+      <div class="name">
+        <p>One-Step Blocking</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <div class="name">
+        <p>Two-Step Blocking</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">8 reps</h1>
+        </div>
+      <div class="name">
+        <p>Three-Step Blocking</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">6 reps</h1>
+        </div>
+
+<div id="daytwo">
+  <div class="title">
+    <a name="daytwo"></a>
+    <p>Day Two <i class="fas fa-volleyball-ball"></i></p>
+  </div>
+  <div class="block">
+      <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
+  </div>
+      <p id="beforetext">-WARM-UP/STRETCH-</p>
+      <div class="name">
+        <p>Jog</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+      <div class="caption">
+        <p>Tip: <br>Jog at your own pace</p>
+      </div>
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue" id="5">05:00</h1>
+        </div>
+        <br></br>
+        <div class="time0">
+          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button onclick="clearInterval(myTimer);">Stop</button>
+        </div>
+      <div class="name">
+        <p>Lounges</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <div class="name">
+        <p>Side Lounges</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <div class="name">
+        <p>Cherry Pickers</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <div class="name">
+        <p>Frankensteins</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <div class="name">
+        <p>Toe Walk Ins</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <div class="name">
+        <p>Heel Walk Ins</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <div class="name">
+        <p>Walk Ins Using Side of Feet</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
       <p id="beforetext">-TODAY’S WORKOUT-</p>
-   <div class="name">
+      <div class="name">
+        <p>Name</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+      <div class="caption">
+        <p>Caption</p>
+      </div>
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">05:00</h1>
+        </div>
+        <div class="time0">
+          <button id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+        </div>
+      </div>
+
+  <p id="beforetext">-TODAY’S WORKOUT-</p>
+  <div class="name">
       <p>Name</p>
-   </div>
-   <div class="picture">
-      <p>Picture</p>
-   </div>
-   <div class="caption">
-      <p>Caption</p>
-   </div>
+  </div>
+  <div class="picture">
+    <p>Picture</p>
+  </div>
+  <div class="caption">
+    <p>Caption</p>
+  </div>
   <div id="time">
     <div class="time0">
-      <h1 class="blue">05:00<br>---------</h1>
+      <h1 class="blue">x reps<br>---------</h1>
     </div>
     <div class="time0">
-      <button id="buttontimer"><i class="fas fa-stopwatch"></i></button>
     </div>
   </div>
 </div>
-  <div class="pagechanger">
+
+<div id="daythree">
+  <div class="title">
+    <a name="daythree"></a>
+    <p>Day Three<i class="fas fa-volleyball-ball"></i></p>
+  </div>
+  <div class="block">
+      <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
+  </div>
+      <p id="beforetext">-WARM-UP/STRETCH-</p>
+      <div class="name">
+        <p>Jog</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+      <div class="caption">
+        <p>Tip: <br>Jog at your own pace</p>
+      </div>
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue" id="5">05:00</h1>
+        </div>
+        <br></br>
+        <div class="time0">
+          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+          <button onclick="clearInterval(myTimer);">Stop</button>
+        </div>
+      <div class="name">
+        <p>Lounges</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <div class="name">
+        <p>Side Lounges</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <div class="name">
+        <p>Cherry Pickers</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <div class="name">
+        <p>Frankensteins</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <div class="name">
+        <p>Toe Walk Ins</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <div class="name">
+        <p>Heel Walk Ins</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <div class="name">
+        <p>Walk Ins Using Side of Feet</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+<!--       <div class="caption">
+        <p></p>
+      </div> -->
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">10 reps</h1>
+        </div>
+      <p id="beforetext">-TODAY’S WORKOUT-</p>
+      <div class="name">
+        <p>Name</p>
+      </div>
+      <div class="picture">
+        <p>Picture</p>
+      </div>
+      <div class="caption">
+        <p>Caption</p>
+      </div>
+      <div id="time">
+        <div class="time0">
+          <h1 class="blue">05:00</h1>
+        </div>
+        <div class="time0">
+          <button id="buttontimer"><i class="fas fa-stopwatch"></i></button>
+        </div>
+      </div>
+  
+  <p id="beforetext">-TODAY’S WORKOUT-</p>
+  <div class="name">
+      <p>Name</p>
+  </div>
+  <div class="picture">
+    <p>Picture</p>
+  </div>
+  <div class="caption">
+    <p>Caption</p>
+  </div>
+  <div id="time">
+    <div class="time0">
+      <h1 class="blue">x reps<br>---------</h1>
+    </div>
+    <div class="time0">
+    </div>
+  </div>
+</div>
+<!--<div class="bottom-bar">
+  <div class="home-bar">
+    <div class="pagechanger">
       <button class="button"> <a href="directory.html" class="button">
-        <i class="fas fa-arrow-circle-left back-button"></i>
+       <i class="fas fa-home"></i>
+        </a>
       </button>
-    </div>
-
-    <div class="daily">
-       <p id="beforetext">-TODAY’S WARM-UP/STRETCH-</p>
-   <div class="name">
-      <p>Name</p>
-   </div>
-   <div class="picture">
-      <p>Picture</p>
-   </div>
-   <div class="caption">
-      <p>Caption</p>
-   </div>
-  <div id="time">
-    <div class="time0">
-      <h1 class="blue">05:00<br>---------</h1>
-    </div>
-    <div class="time0">
-      <button id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-    </div>
   </div>
-      <p id="beforetext">-TODAY’S WORKOUT-</p>
-   <div class="name">
-      <p>Name</p>
-   </div>
-   <div class="picture">
-      <p>Picture</p>
-   </div>
-   <div class="caption">
-      <p>Caption</p>
-   </div>
-  <div id="time">
-    <div class="time0">
-      <h1 class="blue">05:00<br>---------</h1>
-    </div>
-    <div class="time0">
-      <button id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-    </div>
+  </div>
+  <div class="back-bar">
+      <div class="pagechanger">
+        <button class="button"> <a href="directory.html" class="button">
+        <i class="fas fa-arrow-circle-left"></i></a>
+        </button>
+      </div>
+  </div>
+  <div class="info-bar">
+  <div class="pagechanger">
+      <button class="button"> <a href="about.html" class="button">
+       <i class="fas fa-info-circle"></i></a>
+     </button>
   </div>
 </div>
-
+</div> -->
 </body>
-
 </html>
