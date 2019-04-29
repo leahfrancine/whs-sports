@@ -16,9 +16,9 @@
 
 .titlefrl {
   border-style: solid;
-		border-width: 5px;
-		border-radius: 4px;
-		border-color: #101070;
+    border-width: 5px;
+    border-radius: 4px;
+    border-color: #102C44;
 }
 
 .requirements {
@@ -34,7 +34,7 @@
 #header {
  height: 5vh;
   width: 120vw;
-  background-color: #071AAF;
+  background-color: #102C44;
   display: inline-block;
   border-style: solid;
   border-radius: 10px;
@@ -78,3 +78,29 @@
 .button {
    font-size: 3.9vw;
 } 
+
+.bottom-bar {
+    bottom: 0px;
+    position: fixed;
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+    box-shadow: top;
+    border-top: groove 5px;
+    margin-top: 0px;
+}
+
+.home {
+    height: 100%;
+    width: vw;
+    float: left;
+}
+
+.button {
+    font-size: 15vw;
+    background-color: white;
+    border: none;
+    color: #102C44;
+    margin: 0px 30%;\
+    float: left;
+}
