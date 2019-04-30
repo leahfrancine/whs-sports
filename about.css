@@ -1,3 +1,8 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
 .page {
    width: 100vw;
    height: 100vh;
@@ -24,9 +29,9 @@
 .requirements {
   text-align: left;
   font-family: 'Open Sans', sans-serif;
-  width: 80vw;
+  width: 100%;
   border: 15px #071AAF;
-  margin-left: 13%;
+  margin-left: 0%;
   margin-top: 10vh;
   font-size: 4.5vw;
 }
@@ -57,15 +62,14 @@
    width: 30vw;
  border: 15px;
    margin-top: 0px;
-   margin-left: 13%;
- 
-
+   margin-left: 0%;
 }
 
 #schedule {
    width: 190vw;
    min-height: 60vh;
    border-radius: 15px;
+   margin-right: 5px;
 }
 
 .pagechanger {
@@ -103,4 +107,19 @@
     color: #102C44;
     margin: 0px 30%;\
     float: left;
+}
+
+.schedule-pic {
+  margin-left: 2%;
+}
+
+.checky {
+  height: 50px;
+  width: 50px;
+}
+
+.container {
+  margin-left: 10%;
+  width: 80%;
+  font-size: 50px;
 }
