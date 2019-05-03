@@ -19,11 +19,11 @@ var myTimer;
    return n = n;
  }
 }
-     document.getElementById("5").innerHTML = min + " : " + n;
+     document.getElementById("countdown").innerHTML = min + ":" + n;
      --c;
      if (c == 0) {
        clearInterval(myTimer);
-       document.getElementById("5").innerHTML = "0"
+       document.getElementById("countdown").innerHTML = "0"
    }
  }
 }
