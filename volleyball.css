@@ -61,6 +61,13 @@ p {
     border-width: 8px;
 }
 
+.gif {
+    width: 45vw;
+    height: 15vh;
+    margin-left: 17.5vw;
+    margin-top: 2.5vh; 
+}
+
 .caption {
     width: 80vw;
     height: 8vh;
