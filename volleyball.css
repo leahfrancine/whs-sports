@@ -50,7 +50,7 @@ p {
 
 .picture {
     width: 80vw;
-    height: 20vh;
+    height: 30vh;
     background-color: #FFAD02;
     margin: 1vh 9.5%;
     border-radius: 20px;
@@ -62,9 +62,9 @@ p {
 }
 
 .gif {
-    width: 45vw;
-    height: 15vh;
-    margin-left: 17.5vw;
+    width: 50vw;
+    height: 25vh;
+    margin-left: 15vw;
     margin-top: 2.5vh; 
 }
 
