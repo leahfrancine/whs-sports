@@ -3,14 +3,19 @@ html, body{
    margin: 0;
    padding: 0;
    height: 100%;
+   width: 100%;
+}
+
+#area {
+    height: 80%;
+    width: 100%;
 }
 
 .title {
-    width: 100%;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 7vw;
+    font-size: 10vw;
 }
 
 p {
@@ -38,11 +43,13 @@ p {
 
 .name {
     width: 80vw;
-    height: 6.5vh;
+    height: 6vh;
     background-color: #102C44;
-    margin: 2vh 9%;
-    font-size: 2.5vh;
+    margin-left: 9.5vw;
+    font-size: 3.5vh;
+    padding-bottom: 3vh; 
     color: white;
+    text-align: center;
     border-width: 8px;
     border-color: #375873;
     border-style: solid;
@@ -70,7 +77,7 @@ p {
 
 .caption {
     min-width: 80vw;
-    min-height: 8vh;
+    min-height: 6vh;
     background-color: #FFFFF0;
     margin: 2vh 9% ;
     border-color: #FDE8CF;
@@ -227,4 +234,25 @@ span {
     font-size: 30px;
     margin-left: 20%;
     text-align: center;
+}
+
+.blue {
+    font-size: 4vh;
+}
+
+.pressy {
+    margin-left: 6vh;
+    margin-bottom: 10vh;
+}
+
+#button{
+  font-family: lora;
+  background-color: #FFAD00;
+  text-align: center;
+  font-size: 5vw;
+  width: 80vw;
+  height: 5vh;
+  border-radius: 15px;
+  border-color: #101070;
+  color: white;
 }
