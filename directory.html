@@ -2,26 +2,34 @@
 <html lang="en">
 <link rel="stylesheet" type="text/css" href="directory.css">
 <head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <meta charset="UTF-8">
 <title>Document</title>
 </head>
 <body>
-        <h1>Choose a Sport!</h1>
-            <div class="bocc">
-                <div style="cursor: pointer;" onclick="window.location='volleyball.html';">
-                    <h3>Volleyball</h3>
-                </div>
-                <div style="cursor: pointer;" onclick="window.location='track.html';">
-                    <h3>Track and Field</h3>
-                </div>
+    <div class="choose">
+       <h1 class="choosing">Choose a Sport!</h1>
+    </div>
+           <div class="volleyball">
+               <div style="cursor: pointer;" onclick="window.location='volleyball.html';">
+                   <h3>Volleyball</h3>
+                   <img class="v-logo" src="Images/volleyball.png" alt="volleyball-logo" height="450" width="350">
+              </div>
             </div>
-            <div class="not">
-                <div>
-                    <h3>Judo</h3>
-                </div>
+            <div class="track">
+               <div style="cursor: pointer;" onclick="window.location='track.html';">
+                   <h3>Track and Field</h3>
+                   <img class="t-logo" src="Images/track.png" alt="track-logo" height="350" width="500">
+               </div>
             </div>
-        <div class="info" style="cursor: pointer;" onclick="window.location='about.html';">
-            <h2>Information about Sports Teams</h2>
-        </div>
+           <div class="judo">
+               <div>
+                   <h3>Judo</h3>
+                   <img class="j-logo" src="Images/judo.png" alt="judo-logo" height="450" width="500">
+               </div>
+           </div>
+       <div class="info" style="cursor: pointer;" onclick="window.location='about.html';">
+           <h3>About Sports Teams <i class="fas fa-info-circle"></i></h3>
+       </div>
 </body>
 </html>

@@ -1,67 +1,114 @@
 html, body{
-    background-color: #FFD53F;
-    margin: 0;
-    height: 100%;
+   background-color: white;
+   margin: 0;
+   height: 100%;
 }
 
 h1{
-    font-size: 5vh;
-    font-family: Arial;
-    font-weight: bold;
-    text-align: center;
+   font-size: 5vh;
+   font-family: Arial;
+   font-weight: bold;
+   text-align: center;
+   font-color: white;
 }
 
-.bocc{
-    height: 30vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
+.volleyball > div{
+   width: 72%;
+   height: 40vh;
+   background-color: #FFAD00;
+   border-style: outset;
+   border-color: #FFBD35;
+   border-width: 2vw;
+   margin: 1.5vh 12vw;
 }
 
-.bocc > div {
-    height: 30vh;
-    width: 44vw;
-    background-color: #429DFF;
-    margin-left: 4vw;
-    border-style: outset;
+.track > div{
+   width: 72%;
+   height: 40vh;
+   background-color: #FFAD00;
+   border-style: outset;
+   border-color: #FFBD35;
+   border-width: 2vw;
+   margin: 1.5vh 12vw;
 }
 
-.not{
-    height: 30vh;
-    width: 100vw;
-    margin-top: 5vh;
-}
-
-.not > div{
-    height: 30vh;
-    width: 44vw;
-    background-color: #429DFF;
-    margin-left: 4vw;
-    border-style: outset;
+.judo > div{
+   width: 72%;
+   height: 40vh;
+   background-color: #FFAD00;
+   border-style: outset;
+   border-color: #FFBD35;
+   border-width: 2vw;
+   margin: 1.5vh 12vw;
 }
 
 .info{
-    height: 5vh;
-    width: 92vw;
-    background-color: #429DFF;
-    margin-top: 5vh;
-    display: inline-block;
-    margin-bottom: 10vh;
-    margin-left: 4vw;
-    margin-right: 4vw;
-    border-style: outset;
+   height: 5vh;
+   width: 60vw;
+   background-color: #071AAF;
+   margin-top: 3vh;
+   display: inline-block;
+   margin-bottom: 10vh;
+   margin-left: 16vw;
+   margin-right: 4vw;
+   border-style: outset;
+   border-color: #071AAF;
+   border-width: 2vw;
+   color: #FFFFFF;
+
 }
 
 h3{
-    font-family: Arial;
-    text-align: center;
-    font-size: 5vw;
-    margin-top: 2%;
+   font-family: Arial;
+   text-align: center;
+   font-size: 5vw;
+   margin-top: 2%;
 }
 
 h2{
-    font-family: Arial;
-    text-align: center;
-    margin-top: center;
-    font-size: 2vh 3vw;
+   font-family: Arial;
+   text-align: center;
+   margin-top: center;
+   font-size: 2vh 3vw;
+   font-color: #FFFFFF;
+}
+
+.choose {
+   border-color: #101070;
+   border-width: 7px;
+   border-style: solid;
+   border-radius: 15px;
+   height: 10%;
+   width: 75%;
+   text-align: center;
+   margin-left: 12%;
+   margin-top: 5%;
+}
+
+.choosing {
+    margin: 4.5% 1.5%;
+}
+
+.v-logo {
+   margin: 0px 23%;
+   border-style: solid;
+   border-width: 5px;
+   padding: 15px;
+   border-color: black;
+}
+
+.t-logo {
+   margin: 70px 12%;
+   border-style: solid;
+   border-width: 5px;
+   padding: 15px;
+   border-color: black;
+}
+
+.j-logo {
+   margin: 25px 12%;
+   border-style: solid;
+   border-width: 5px;
+   padding: 15px;
+   border-color: black;
 }
