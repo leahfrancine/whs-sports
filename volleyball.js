@@ -27,3 +27,6 @@ var myTimer;
    }
  }
 }
+function goBack() {
+  window.history.back();
+}
