@@ -6,7 +6,6 @@
   <link rel="stylesheet" type="text/css" href="volleyball.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <script src="volleyball.js"></script>
-  <link rel="stylesheet" type="text/css" href="https://fonts.google.com/specimen/Acme">
 </head>
 <body>
   <div class="top-bar">
@@ -16,6 +15,7 @@
       <span></span>
       <span></span>
     </div>
+    <button onclick="toggleSidebar()"> Back To Current Day</button>
 <ul>
      <li><a href="#dayone">Day 1</a></li>
      <li><a href="#daytwo">Day 2</a></li>
@@ -92,7 +92,7 @@
         <p>One-Step Passing Left</p>
       </div>
       <div class="picture">
-        <img src="Images/onesteppassingvolleyball.gif" alt="One-Step Passing Left" class="gif">
+        <img src="Images/onesteppassingleft.gif" alt="One-Step Passing Left" class="gif">
       </div>
       <div class="caption">
         <p class="captiontext">Reps: 5<br> Have your arms out, bend your knees and using your left foot, hop front left diagonally, bringing your right foot with you and clasp your hands together, hitting towards your target and going up.</p>
@@ -101,7 +101,7 @@
         <p>One-Step Passing Right</p>
       </div>
       <div class="picture">
-        <p>Picture</p>
+        <img src="Images/onesteppassingright.gif" alt="One-Step Passing Left" class="gif">
       </div>
       <div class="caption">
         <p class="captiontext">Reps: 5<br> Have your arms out, bend your knees and using your right foot, hop front right diagonally, bringing your left foot with you and clasp your hands together, hitting towards your target and going up.</p>
@@ -110,7 +110,7 @@
         <p>One-Step Passing Front</p>
       </div>
       <div class="picture">
-        <p>Picture</p>
+        <img src="Images/onesteppassingfront.gif" alt="One-Step Passing Left" class="gif">
       </div>
       <div class="caption">
         <p class="captiontext">Reps: 5<br> Have your arms out, bend your knees and using your right foot, hop straight forward, bringing your left foot with you and clasp your hands together, hitting towards your target and going up.
@@ -120,7 +120,7 @@
         <p>One-Step Passing Back Left</p>
       </div>
       <div class="picture">
-        <p>Picture</p>
+        <img src="Images/onesteppassingbackleft.gif" alt="One-Step Passing Left" class="gif">
       </div>
       <div class="caption">
         <p class="captiontext">Reps: 5<br> Have your arms out, bend your knees and using your left foot, hop back left diagonally, bringing your right foot with you and clasp your hands together, hitting towards your target and going up.</p>
@@ -129,7 +129,7 @@
         <p>One-Step Passing Back Right</p>
       </div>
       <div class="picture">
-        <p>Picture</p>
+        <img src="Images/onesteppassingbackright.gif" alt="One-Step Passing Left" class="gif">
       </div>
       <div class="caption">
         <p class="captiontext">Reps: 5<br> Have your arms out, bend your knees and using your right foot, hop back right diagonally, bringing your left foot with you and clasp your hands together, hitting towards your target and going up.</p>
@@ -140,114 +140,26 @@
     <p>Day Three</p>
   </div>
   <div class="block">
-      <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
+      <p class="message">Before working out, <a href="#warmups">Warm-Up/Stretch</a> first!</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <img src="Images/jog.gif" class="gif" alt="Jogging Man">
-      </div>
-      <div class="caption">
-        <p class="captiontext">Jog at your own pace!</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <img src="Images/lunges.gif" class="gif">
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <img src="Images/sidelunges.gif" class="gif">
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <img src="Images/frankenstein.gif" class="gif">
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: SERVING DRILLS-</p>
       <div class="name">
         <p>Underhand Serve (Practice)</p>
       </div>
       <div class="picture">
-        <p>Picture</p>
+        <img src="Images/underhandserve.gif" alt="Underhand Serve" class="gif">
       </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">5 GOOD reps</h1>
-        </div>
+      <div class="caption">
+        <p class="captiontext">Reps: 5<br> Get your feet into position. Ready the ball. Lower the ball. Lean your shoulders forward. Draw your hitting arm straight back. As you swing your arm, step forward. Follow through with your arm.</p>
       </div>
       <div class="name">
         <p>Overhand Serve</p>
       </div>
       <div class="picture">
-        <p>Picture</p>
+        <img src="Images/overhandserve.gif" alt="Overhand Serve" class="gif">
       </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">10 GOOD reps</h1>
-        </div>
+      <div class="caption">
+        <p class="captiontext">Reps: 10<br>Stagger your feet. Hold the ball in front of you. Ready your hitting hand. Toss the ball into the air. Aim for your serve with your body. Hit the ball with the heel of your dominant hand.</p>
       </div>
 <div id="dayfour">
   <div class="title">
@@ -257,90 +169,6 @@
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <img src="Images/jog.gif" class="gif" alt="Jogging Man">
-      </div>
-      <div class="caption">
-        <p class="captiontext">Jog at your own pace!</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <img src="Images/lunges.gif" class="gif">
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <img src="Images/sidelunges.gif" class="gif">
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <img src="Images/frankenstein.gif" class="gif">
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: HITTING DRILLS-</p>
       <div class="name">
         <p>One-Step Hitting Left Side</p>
@@ -383,104 +211,6 @@
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button class="stopper" onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">10 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">10 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">10 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">10 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">10 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">10 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">10 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: SETTING DRILLS-</p>
       <div class="name">
         <p>Setting</p>
@@ -523,104 +253,6 @@
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button class="stopper" onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: BLOCKING DRILLS-</p>
       <div class="name">
         <p>Two-Step Blocking Left</p>
@@ -652,104 +284,6 @@
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button class="stopper" onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: PASSING DRILLS-</p>
       <div class="name">
         <p>Two-Step Passing Left</p>
@@ -814,90 +348,6 @@
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <img src="Images/jog.gif" class="gif" alt="Jogging Man">
-      </div>
-      <div class="caption">
-        <p class="captiontext">Jog at your own pace!</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <img src="Images/lunges.gif" class="gif">
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10 Position yourself with one leg forward and resting on the knee of the back leg. Be sure that the front ankle is directly under the knee and that the trailing leg is straight out behind you. You may use your hands on the ground to steady the body. Gently lower the hips downward and forwards and hold that position. Repeat on the other side.</p>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <img src="Images/sidelunges.gif" class="gif">
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10 </p>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <img src="Images/frankenstein.gif" class="gif">
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: SERVING DRILLS-</p>
       <div class="name">
         <p>Overhand Serve</p>
@@ -925,110 +375,12 @@
    </div> 
 <div id="daynine">
   <div class="title">
-    <a name="dayfour"></a>
-    <p>Day Four</p>
+    <a name="daynine"></a>
+    <p>Day Nine</p>
   </div>
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: HITTING DRILLS-</p>
       <div class="name">
         <p>One-Step Hitting Left Side</p>
@@ -1065,110 +417,12 @@
       </div>
 <div id="dayten">
   <div class="title">
-    <a name="dayfive"></a>
-    <p>Day Five</p>
+    <a name="dayten"></a>
+    <p>Day Ten</p>
   </div>
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button class="stopper" onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: SETTING DRILLS-</p>
       <div class="name">
         <p>Setting</p>
@@ -1205,110 +459,12 @@
       </div>
 <div id="dayeleven">
   <div class="title">
-    <a name="daysix"></a>
-    <p>Day Six</p>
+    <a name="dayeleven"></a>
+    <p>Day Eleven</p>
   </div>
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button class="stopper" onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: BLOCKING DRILLS-</p>
       <div class="name">
         <p>Two-Step Blocking Left</p>
@@ -1334,110 +490,12 @@
       </div>
 <div id="daytwelve">
   <div class="title">
-    <a name="daytwo"></a>
-    <p>Day Two</i></p>
+    <a name="daytwelve"></a>
+    <p>Day Twelve</i></p>
   </div>
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">12 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: PASSING DRILLS-</p>
       <div class="name">
         <p>One-Step Passing Left</p>
@@ -1496,110 +554,12 @@
       </div>
 <div id="daythirteen">
   <div class="title">
-    <a name="dayeight"></a>
-    <p>Day Eight</p>
+    <a name="daythirteen"></a>
+    <p>Day Thirteen</p>
   </div>
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button class="stopper" onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: SERVING DRILLS-</p>
       <div class="name">
         <p>Overhand Serve</p>
@@ -1627,110 +587,12 @@
    </div> 
 <div id="dayfourteen">
   <div class="title">
-    <a name="dayfour"></a>
-    <p>Day Four</p>
+    <a name="dayfourteen"></a>
+    <p>Day Fourteen</p>
   </div>
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: HITTING DRILLS-</p>
       <div class="name">
         <p>One-Step Hitting Left Side</p>
@@ -1767,110 +629,12 @@
       </div>
 <div id="dayfifteen">
   <div class="title">
-    <a name="dayfive"></a>
-    <p>Day Five</p>
+    <a name="dayfifteen"></a>
+    <p>Day Fifteen</p>
   </div>
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button class="stopper" onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: SETTING DRILLS-</p>
       <div class="name">
         <p>Setting</p>
@@ -1907,110 +671,12 @@
       </div>
 <div id="daysixteen">
   <div class="title">
-    <a name="daysix"></a>
-    <p>Day Six</p>
+    <a name="daysixteen"></a>
+    <p>Day Sixteen</p>
   </div>
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button class="stopper" onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: BLOCKING DRILLS-</p>
       <div class="name">
         <p>Two-Step Blocking Left</p>
@@ -2036,110 +702,12 @@
       </div>
 <div id="dayseventeen">
   <div class="title">
-    <a name="daysix"></a>
-    <p>Day Six</p>
+    <a name="dayseventeen"></a>
+    <p>Day Seventeen</p>
   </div>
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button class="stopper" onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: BLOCKING DRILLS-</p>
       <div class="name">
         <p>Two-Step Blocking Left</p>
@@ -2165,110 +733,12 @@
       </div>
 <div id="dayeighteen">
   <div class="title">
-    <a name="daytwo"></a>
-    <p>Day Two</i></p>
+    <a name="dayeighteen"></a>
+    <p>Day Eighteen</i></p>
   </div>
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">14 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: PASSING DRILLS-</p>
       <div class="name">
         <p>One-Step Passing Left</p>
@@ -2327,110 +797,12 @@
       </div>
 <div id="daynineteen">
   <div class="title">
-    <a name="dayeight"></a>
-    <p>Day Eight</p>
+    <a name="daynineteen"></a>
+    <p>Day Nineteen</p>
   </div>
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button class="stopper" onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: SERVING DRILLS-</p>
       <div class="name">
         <p>Overhand Serve</p>
@@ -2458,110 +830,12 @@
    </div> 
 <div id="daytwenty">
   <div class="title">
-    <a name="dayfive"></a>
-    <p>Day Five</p>
+    <a name="daytwenty"></a>
+    <p>Day Twenty</p>
   </div>
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button class="stopper" onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: SETTING DRILLS-</p>
       <div class="name">
         <p>Setting</p>
@@ -2598,110 +872,12 @@
       </div>
 <div id="daytwentyone">
   <div class="title">
-    <a name="daysix"></a>
-    <p>Day Six</p>
+    <a name="daytwentyone"></a>
+    <p>Day Twenty One</p>
   </div>
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button class="stopper" onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: BLOCKING DRILLS-</p>
       <div class="name">
         <p>Two-Step Blocking Left</p>
@@ -2727,110 +903,12 @@
       </div>
 <div id="daytwentytwo">
   <div class="title">
-    <a name="daytwo"></a>
-    <p>Day Two</i></p>
+    <a name="daytwentytwo"></a>
+    <p>Day Twenty Two</i></p>
   </div>
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">16 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: PASSING DRILLS-</p>
       <div class="name">
         <p>One-Step Passing Left</p>
@@ -2889,110 +967,12 @@
       </div>
 <div id="daytwentythree">
   <div class="title">
-    <a name="dayeight"></a>
-    <p>Day Eight</p>
+    <a name="daytwentythree"></a>
+    <p>Day Twenty Three</p>
   </div>
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button class="stopper" onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: SERVING DRILLS-</p>
       <div class="name">
         <p>Overhand Serve</p>
@@ -3020,110 +1000,12 @@
    </div> 
 <div id="daytwentyfour">
   <div class="title">
-    <a name="dayeight"></a>
-    <p>Day Eight</p>
+    <a name="daytwentyfour"></a>
+    <p>Day Twenty Four</p>
   </div>
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button class="stopper" onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: SERVING DRILLS-</p>
       <div class="name">
         <p>Overhand Serve</p>
@@ -3151,110 +1033,12 @@
    </div> 
 <div id="daytwentyfive">
   <div class="title">
-    <a name="dayeight"></a>
-    <p>Day Eight</p>
+    <a name="daytwentyfive"></a>
+    <p>Day Twenty Five</p>
   </div>
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button class="stopper" onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: SERVING DRILLS-</p>
       <div class="name">
         <p>Overhand Serve</p>
@@ -3282,110 +1066,12 @@
    </div> 
 <div id="daytwentysix">
   <div class="title">
-    <a name="daysix"></a>
-    <p>Day Six</p>
+    <a name="daytwentysix"></a>
+    <p>Day Twenty Six</p>
   </div>
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button class="stopper" onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">20 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">20 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">20 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">20 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">20 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">20 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">20 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: BLOCKING DRILLS-</p>
       <div class="name">
         <p>Two-Step Blocking Left</p>
@@ -3409,273 +1095,14 @@
           <h1 class="blue">16 reps</h1>
         </div>
       </div>
-  <div class="title">
-    <a name="daytwo"></a>
-    <p>Day Two</i></p>
-  </div>
-  <div class="block">
-      <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
-  </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">18 reps</h1>
-        </div>
-      </div>
-        <br></br>
-      <p id="beforetext">-TODAY’S WORKOUT: PASSING DRILLS-</p>
-      <div class="name">
-        <p>One-Step Passing Left</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">13 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>One-Step Passing Right</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">13 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>One-Step Passing Front</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">13 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>One-Step Passing Back Left</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">13 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>One-Step Passing Back Right</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">13 reps</h1>
-        </div>
-      </div>
 <div id="daytwentyseven">
   <div class="title">
-    <a name="dayeight"></a>
-    <p>Day Eight</p>
+    <a name="daytwentyseven"></a>
+    <p>Day Twenty Seven</p>
   </div>
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button class="stopper" onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">20 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">20 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">20 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">20 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">20 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">20 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">20 reps</h1>
-        </div>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: SERVING DRILLS-</p>
       <div class="name">
         <p>Overhand Serve</p>
@@ -3702,112 +1129,46 @@
       </div>
    </div> 
 <div id="daytwentyeight">
-<div id="daytwentynine">
   <div class="title">
-    <a name="dayeight"></a>
-    <p>Day Eight</p>
+    <a name="daytwentyeight"></a>
+    <p>Day Twenty Eight</p>
   </div>
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
+      <p id="beforetext">-TODAY’S WORKOUT: SERVING DRILLS-</p>
       <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p>Tip: <br>Jog at your own pace</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button class="stopper" onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
+        <p>Overhand Serve</p>
       </div>
       <div class="picture">
         <p>Picture</p>
       </div>
       <div id="time">
         <div class="time0">
-          <h1 class="blue">20 reps</h1>
+          <h1 class="blue">23 reps</h1>
         </div>
       </div>
-      <div class="name">
-        <p>Side Lunges</p>
+   <div class="bottom-bar">
+      <div class="home"> 
+        <button class="button"> <a href="directory.html" class="button">
+          <i class="far fa-compass"></i>
+        </a>
+        </button>
       </div>
-      <div class="picture">
-        <p>Picture</p>
+      <div class="info">
+          <button class="button"> <a href="about.html" class="button">
+          <i class="fas fa-info"></i>
+          </a>
       </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">20 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">20 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">20 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">20 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">20 reps</h1>
-        </div>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue">20 reps</h1>
-        </div>
-      </div>
-        <br></br>
+   </div>
+<div id="daytwentynine">
+  <div class="title">
+    <a name="daytwentynine"></a>
+    <p>Day Twenty Nine</p>
+  </div>
+  <div class="block">
+      <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
+  </div>
       <p id="beforetext">-TODAY’S WORKOUT: SERVING DRILLS-</p>
       <div class="name">
         <p>Overhand Serve</p>
@@ -3841,90 +1202,6 @@
   <div class="block">
       <p class="message">*Tip: BEFORE you start the workout, we recommend you to Stretch or Warm-up first!*</p>
   </div>
-      <p id="beforetext">-WARM-UPS/STRETCHES-</p>
-      <div class="name">
-        <p>Jog</p>
-      </div>
-      <div class="picture">
-        <img src="Images/jog.gif" class="gif" alt="Jogging Man">
-      </div>
-      <div class="caption">
-        <p class="captiontext">Jog at your own pace!</p>
-      </div>
-      <div id="time">
-        <div class="time0">
-          <h1 class="blue" id="5">05:00</h1>
-        </div>
-        <br></br>
-        <div class="time0">
-          <button onclick="clock(); document.getElementById('5').innerHTML='5:00';" id="buttontimer"><i class="fas fa-stopwatch"></i></button>
-          <button class="stopper" onclick="clearInterval(myTimer);">Stop</button>
-        </div>
-      </div>
-      <div class="name">
-        <p>Lunges</p>
-      </div>
-      <div class="picture">
-        <img src="Images/lunges.gif" class="gif">
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10 Position yourself with one leg forward and resting on the knee of the back leg. Be sure that the front ankle is directly under the knee and that the trailing leg is straight out behind you. You may use your hands on the ground to steady the body. Gently lower the hips downward and forwards and hold that position. Repeat on the other side.</p>
-      </div>
-      <div class="name">
-        <p>Side Lunges</p>
-      </div>
-      <div class="picture">
-        <img src="Images/sidelunges.gif" class="gif">
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10 </p>
-      </div>
-      <div class="name">
-        <p>Cherry Pickers</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-      <div class="name">
-        <p>Frankensteins</p>
-      </div>
-      <div class="picture">
-        <img src="Images/frankenstein.gif" class="gif">
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-      <div class="name">
-        <p>Toe Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-      <div class="name">
-        <p>Heel Walk Ins</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-      <div class="name">
-        <p>Walk Ins Using Side of Feet</p>
-      </div>
-      <div class="picture">
-        <p>Picture</p>
-      </div>
-      <div class="caption">
-        <p class="captiontext">Reps: 10</p>
-      </div>
-        <br></br>
       <p id="beforetext">-TODAY’S WORKOUT: SERVING DRILLS-</p>
       <div class="name">
         <p>Overhand Serve</p>
@@ -3950,30 +1227,6 @@
           </a>
       </div>
    </div>  
-<!--<div class="bottom-bar">
-  <div class="home-bar">
-    <div class="pagechanger">
-      <button class="button"> <a href="directory.html" class="button">
-       <i class="fas fa-home"></i>
-        </a>
-      </button>
-  </div>
-  </div>
-  <div class="back-bar">
-      <div class="pagechanger">
-        <button class="button"> <a href="directory.html" class="button">
-        <i class="fas fa-arrow-circle-left"></i></a>
-        </button>
-      </div>
-  </div>
-  <div class="info-bar">
-  <div class="pagechanger">
-      <button class="button"> <a href="about.html" class="button">
-       <i class="fas fa-info-circle"></i></a>
-     </button>
-  </div>
-</div>
-</div> -->
 <a name="warmups"></a>
 <p id="beforetext">-WARM-UPS/STRETCHES-</p>
       <div class="name">

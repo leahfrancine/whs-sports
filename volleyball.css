@@ -121,19 +121,20 @@ p {
 
 #sidebar {
     position: fixed;
-    width: 10vh;
+    width: 15vh;
     height: 99%;
     background: #FFFFF0;
-    left: -10vh;
+    left: -15vh;
     transition: all 500ms linear;
     color: black;
     border-right: groove 5px #C0C0C0;
     border-bottom: groove 5px #C0C0C0;
-    font-size: 20px;
+    font-size: 5vw;
 }
 
 #sidebar.active {
     left: 0vh;
+    overflow: auto;
 }
 
 #sidebar > ul > li {
@@ -145,7 +146,7 @@ p {
 
 #sidebar > .toggle-btn {
     position: absolute;
-    left: 215px;
+    left: 300px;
     top: 20px;
 }
 
