@@ -257,3 +257,11 @@ span {
   border-color: #101070;
   color: white;
 }
+
+
+.return {
+    font-size: 2vh;
+    border: none;
+    background-color: #ffff;
+    color: blue;
+}
