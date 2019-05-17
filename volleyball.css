@@ -123,7 +123,7 @@ p {
     position: fixed;
     width: 15vh;
     height: 99%;
-    background: #FFFFF0;
+    background: #102C44;
     left: -15vh;
     transition: all 500ms linear;
     color: black;
@@ -138,7 +138,7 @@ p {
 }
 
 #sidebar > ul > li {
-    color: black;
+    color: #FFAD02;
     list-style: none;
     padding: 15px 10px;
     border-bottom: 1px solid rgba(100,100,100,0.3);
@@ -152,10 +152,10 @@ p {
 
 #sidebar > .toggle-btn > span {
     display: block;
-    width: 30px;
-    height: 5px;
+    width: 70px;
+    height: 14px;
     background: #102C44;
-    margin: 3px 0px;
+    margin: 7px 0px;
 }
 
 .pagechanger {
@@ -223,7 +223,7 @@ p {
     background-color: white;
     border: none;
     color: #102C44;
-    margin: 0px 30%;\
+    margin: 0px 30%;
     float: left;
 }
 
@@ -264,4 +264,16 @@ span {
     border: none;
     background-color: #ffff;
     color: blue;
+}
+
+#close{
+	min-width: 21.5vw;
+	min-height: 3vh;
+	background-color: #FFAD02;
+	margin-left: 2.5vw;
+	margin-right: 2.5vw;
+	margin-top: 5vw;
+	border-radius: 2vw;
+	color: #FFFFF0;
+	font-size: 5vw;
 }
