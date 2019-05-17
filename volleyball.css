@@ -117,13 +117,17 @@ p {
     text-align: center;
     border-radius: 5px;
     color: #102C44;
+    width: 20vw;
+    height: 10vh;
+    float: left;
+    background-color: #FFAD02;
 }
 
 #sidebar {
     position: fixed;
     width: 15vh;
     height: 99%;
-    background: #102C44;
+    background: #FFAD02;
     left: -15vh;
     transition: all 500ms linear;
     color: black;
@@ -232,9 +236,14 @@ span {
 }
 
 .stopper {
-    font-size: 30px;
+    font-size: 4vh;
     margin-left: 20%;
     text-align: center;
+    width: 20vw;
+    height: 10vh;
+    float: left;
+    background-color: #FFAD02;
+    color: white;
 }
 
 .blue {
@@ -269,7 +278,7 @@ span {
 #close{
 	min-width: 21.5vw;
 	min-height: 3vh;
-	background-color: #FFAD02;
+	background-color: #102C44;
 	margin-left: 2.5vw;
 	margin-right: 2.5vw;
 	margin-top: 5vw;
